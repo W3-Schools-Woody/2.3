@@ -7,20 +7,11 @@
     Tip: you can create another variable as a placeholder for the sum first.
 */
 
-/*Q2:
-1. Create an object called vehicle with following properties:
-    a. name (String)
-    b. brand (String)
-    c. year of make (Number)
-    b. number of wheels (Number)
-    e. isEnvironmentFriendly (Boolean)
-Feel free to put any value.
-2. Use the for-in loop to display both the properties and values of the object.
-*/
+
 
 
 // Q1
-let grades = [56, 87, 99, 40]
+let grades = [56, 87, 99, 40];
 grades.push(68);
 grades.pop(3);
 grades[3] = 60; 
@@ -38,7 +29,18 @@ console.log(average);
 
 
 //          -----------------------------------------------
-//Q2
+
+/*Q2:
+1. Create an object called vehicle with following properties:
+    a. name (String)
+    b. brand (String)
+    c. year of make (Number)
+    b. number of wheels (Number)
+    e. isEnvironmentFriendly (Boolean)
+Feel free to put any value.
+2. Use the for-in loop to display both the properties and values of the object.
+*/
+
 let vehicles = {
     name: "Element",
     brand: "Honda",
